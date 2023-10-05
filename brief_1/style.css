@@ -1,0 +1,156 @@
+.custom-header {
+    background-color: #000000;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.custom-header .custom-header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-header .custom-logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    left: 185px;
+    top: 13px;
+}
+
+.custom-header .custom-menu-button {
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+/* Styles for the custom hero section */
+.custom-hero {
+    background-image: url("3032.jpg");
+    padding: 10px 0;
+    text-align: center;
+}
+
+.custom-hero .custom-hero-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.custom-hero .custom-hero-title {
+    font-size: 60px;
+    color: #ffffff;
+    text-shadow: #000000;
+    border: 1px solid #000000;
+}
+
+.custom-hero .custom-hero-description {
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 1px 1px   #000000;
+    text-decoration-style: solid;
+}
+
+/* Styles for the custom buttons */
+.custom-btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.custom-primary-btn {
+    background-color: #a5acb4;
+    color: #fff;
+}
+
+.custom-secondary-btn {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* Styles for the custom album section */
+.custom-album {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.custom-album .custom-album-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Styles for the custom cards */
+.custom-card {
+    background-color: #e2e2ca;
+    border: 1px solid #d4d4b7;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    max-width: 250px;
+}
+
+.custom-card img {
+    width:100%;
+    height: auto;
+    /*position: relative;*/
+}
+
+.custom-card .custom-card-title {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.custom-card .custom-card-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Styles for the custom footer */
+.custom-footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 1px 0;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.custom-footer .custom-footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.custom-footer .custom-footer-text {
+    font-size: 14px;
+}
+
+.custom-footer .custom-footer-link {
+    color: #007bff;
+    text-decoration: none;
+}
+.custom-footer .to-top {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration:none;
+    background-image: url("3032.jpg");
+    border-radius: 18px;
+    max-width: 150px;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    width: 270px;
+    
+}
