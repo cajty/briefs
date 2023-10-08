@@ -19,9 +19,9 @@
     text-decoration: none;
     color: #fff;
     text-decoration: none;
-    position: absolute;
+    /* position: absolute;
     left: 185px;
-    top: 13px;
+    top: 13px; */
 }
 
 .custom-header .custom-menu-button {
@@ -32,7 +32,7 @@
 
 /* Styles for the custom hero section */
 .custom-hero {
-    background-image: url("3032.jpg");
+    background-color: #555;
     padding: 10px 0;
     text-align: center;
 }
@@ -66,12 +66,14 @@
 }
 
 .custom-primary-btn {
-    background-color: #a5acb4;
+    background-color: #46596e;
+    border: 1px solid #1b1b1a;
     color: #fff;
 }
 
 .custom-secondary-btn {
-    background-color: #6c757d;
+    background-color: #3e3a3a;
+    border: 1px solid #1b1b1a;
     color: #fff;
 }
 
@@ -92,18 +94,12 @@
 /* Styles for the custom cards */
 .custom-card {
     background-color: #e2e2ca;
-    border: 1px solid #d4d4b7;
+    border: 1px solid #000000;
     border-radius: 8px;
     margin: 10px;
     padding: 15px;
     text-align: center;
     max-width: 250px;
-}
-
-.custom-card img {
-    width:100%;
-    height: auto;
-    /*position: relative;*/
 }
 
 .custom-card .custom-card-title {
@@ -145,7 +141,7 @@
     color: #ffffff;
     font-size: 20px;
     text-decoration:none;
-    background-image: url("3032.jpg");
+    background:#6c757d;
     border-radius: 18px;
     max-width: 150px;
     position: fixed;
