@@ -12,11 +12,6 @@ h1{
 .List-0{
     font-size: 25px;
 }
-b{
-    font-size: 60px;
-    color : #A18A68;
-}
-
 header .title-You{
     font-family: 'Allerta Stencil';
     font-size: 35px;
@@ -37,23 +32,17 @@ header{
 }
 main{
     width: 1248px;
-    height: 1400px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
 }
+
 .pr1{
-    width: 1248px;
-    height: 698px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.pr2{
     width: 1176px;
-    height: 520px;
+    height: 1020px;
     background: #D8D8D8;
     display: flex;
     flex-direction: column;
@@ -66,7 +55,7 @@ main{
     justify-content: center;
     align-items: center;
 }
-p{
+b{
     width: 1000px;
     height: 50px;
     background: #ffffff;
